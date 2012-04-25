@@ -33,12 +33,6 @@ class Document extends types.CommonObject
   to_json: ->
     @_properties.to_json this
 
-  save: ->
-    console.log "Saving document #{@_id}"
-
-  remove: ->
-    console.log "Removing document #{@_id}"
-
 
 Empty = (->).__proto__
 class DocumentClass extends Empty

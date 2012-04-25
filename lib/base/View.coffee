@@ -45,7 +45,7 @@ class View extends types.CommonClass
     @document_class = null
 
 
-  _map_func: (
+  _map_func: 
 
 
 
